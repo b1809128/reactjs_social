@@ -1,0 +1,18 @@
+.btn {
+    width: 100px;
+    height: 40px;
+    outline: none;
+    background-color: #1c2237;
+    color: rgba(0, 153, 255, 1);
+    border: 1px solid rgba(0, 153, 255, 1);
+    border-radius: 4px;
+    font-size: 1.2rem;
+}
+
+.btn:hover {
+    background-color: #f00946;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}

@@ -37,8 +37,9 @@
 .footer-main-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin: 12px auto;
+    padding: 0 24px;
 }
 
 .title {
@@ -46,6 +47,7 @@
 }
 
 .title-list {
+    padding: 8px 0;
     list-style: none;
 }
 

@@ -4,7 +4,7 @@ import {services} from './Data';
 function Services() {
     return (
         <div>
-            <Content {...services} />
+            {/* <Content {...services} /> */}
         </div>
     )
 }

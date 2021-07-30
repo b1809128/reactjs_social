@@ -1,10 +1,12 @@
 import React from 'react'
 import Content from "../../Content/Content";
-import {home} from './Data';
+import {homeContentOne,homeContentTwo,homeContentThree} from './Data';
 function Home() {
     return (        
             <div>
-                <Content {...home} />                
+                <Content {...homeContentOne} /> 
+                <Content {...homeContentTwo} /> 
+                <Content {...homeContentThree} />                   
             </div>
     )
 }

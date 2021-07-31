@@ -56,3 +56,9 @@
 .form-button {
     margin: 12px auto;
 }
+
+@media screen and (max-width: 768px) {
+    .form-content {
+        width: 370px;
+    }
+}

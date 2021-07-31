@@ -5,6 +5,7 @@ import Services from "./components/Data/Services/Services";
 import Products from "./components/Data/Products/Products";
 import About_Data from "./components/Data/About/About_Data";
 import Header from "./components/Header/Header";
+import Sign from "./components/Sign/Sign";
 import Footer from "./components/Footer/Footer";
 import "./styles.css";
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/Services" component={Services} />{" "}
         <Route path="/Products" component={Products} />{" "}
         <Route path="/About" component={About_Data} />{" "}
+        <Route path="/Sign-up" component={Sign} />{" "}
       </Switch>{" "}
       <Footer />
     </Router>

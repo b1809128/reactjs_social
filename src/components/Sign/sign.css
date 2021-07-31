@@ -1,0 +1,58 @@
+.form-wrapper {
+    width: 100%;
+    margin: 0;
+    background-color: #1c2237;
+    padding: 50px 0;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    height: 500px;
+    width: 450px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    padding: 50px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-content-heading {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #9face6;
+}
+
+.form-input {
+    width: 75%;
+    height: 40px;
+    margin: 12px auto;
+    border: 1px solid rgba(53, 32, 32, 0.3);
+    border-radius: 4px;
+    padding: 0 8px;
+}
+
+.form-checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-content-text {
+    font: size 1.2rem;
+    font-weight: 500;
+    padding: 0 8px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.form-content-text-underline {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.form-button {
+    margin: 12px auto;
+}

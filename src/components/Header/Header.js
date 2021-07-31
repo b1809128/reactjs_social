@@ -39,7 +39,7 @@ function Header() {
             </Link>
           </li>
           <li className="menu-btn">
-            <Link to="/Contact" className="menu-item-link" onClick={handleClick}>
+            <Link to="/Sign-up" className="menu-item-link" onClick={handleClick}>
               <Button  name = "Sign Up"/>
             </Link>
           </li>

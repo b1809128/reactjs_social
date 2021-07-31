@@ -1,10 +1,11 @@
 import React from 'react'
 import Content from "../../Content/Content"
-import {services} from './Data';
+import {serviceContentOne,serviceContentTwo} from './Data';
 function Services() {
     return (
         <div>
-            {/* <Content {...services} /> */}
+            <Content {...serviceContentOne} />
+            <Content {...serviceContentTwo}/>
         </div>
     )
 }

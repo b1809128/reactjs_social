@@ -19,27 +19,27 @@ function Header() {
         </div>
         <ul className={click ? "header-menu active" : "header-menu"}>
           <li className="menu-item">
-            <Link to="/" className="menu-item-link">
+            <Link to="/" className="menu-item-link" onClick={handleClick}>
               Home
             </Link>
           </li>
           <li className="menu-item">
-            <Link to="/Services" className="menu-item-link">
+            <Link to="/Services" className="menu-item-link" onClick={handleClick}>
               Services
             </Link>
           </li>
           <li className="menu-item">
-            <Link to="/Products" className="menu-item-link">
+            <Link to="/Products" className="menu-item-link" onClick={handleClick}>
               Products
             </Link>
           </li>
           <li className="menu-item">
-            <Link to="/Contact" className="menu-item-link">
+            <Link to="/About" className="menu-item-link" onClick={handleClick}>
               About us
             </Link>
           </li>
           <li className="menu-btn">
-            <Link to="/Contact" className="menu-item-link">
+            <Link to="/Contact" className="menu-item-link" onClick={handleClick}>
               <Button  name = "Sign Up"/>
             </Link>
           </li>

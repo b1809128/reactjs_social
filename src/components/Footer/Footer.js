@@ -26,7 +26,7 @@ function Footer() {
       </div>
 
       <div className="footer-main-content">
-        <div className="about">
+        <div className="">
           <h3 className="title">About Us</h3>
           <ul className="title-list">
             <li className="title-item">How it works </li>
@@ -35,7 +35,7 @@ function Footer() {
             <li className="title-item">Terms of Service</li>
           </ul>
         </div>
-        <div className="contact">
+        <div className="">
           <h3 className="title">Contact Us</h3>
           <ul className="title-list">
             <li className="title-item">Contact </li>
@@ -44,7 +44,7 @@ function Footer() {
             
           </ul>
         </div>
-        <div className="video">
+        <div className="">
           <h3 className="title">Products</h3>
           <ul className="title-list">
             <li className="title-item">React JS </li>
@@ -53,7 +53,7 @@ function Footer() {
             <li className="title-item">FullStack JavaScript</li>
           </ul>
         </div>
-        <div className="social">
+        <div className="">
           <h3 className="title">Social Media</h3>
           <ul className="title-list">
             <li className="title-item">Instagram </li>
